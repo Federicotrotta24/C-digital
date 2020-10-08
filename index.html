@@ -17,33 +17,36 @@
         <link href="css/bootstrap.css" rel="stylesheet" />
         <!--main css-->
         <link rel="stylesheet" href="css/main.css">
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a id="logo_img"  class="navbar-brand js-scroll-trigger d-none" href="#page-top"><img src="./CDIGITAL-01.png" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Nuestro equipo</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
-                    </ul>
+        <div class="container">
+            <nav class="navbar col-12 navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                <div class="container">
+                    <a id="logo_img"  class="navbar-brand js-scroll-trigger d-none" href="#page-top"></a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars ml-1"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav text-uppercase ml-auto">
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Nuestro equipo</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <img class="titulo" src="./CDIGITAL-01.png" alt="" />
+                <img id="logo-1" class="titulo mt-1 mb-5 ml-5  "src="./CDIGITAL-01.png" alt="logo_img" />
                 <div class="masthead-subheading d-none">C-Digital</div>
                 <div class="masthead-heading text-uppercase">Marketing Digital</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Conocenos</a>
+                <a class="btn btn-1  btn-xl text-uppercase js-scroll-trigger" href="#services">Conocenos</a>
             </div>
         </header>
         <!-- servicios-->
@@ -94,11 +97,32 @@
                             <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
                     </li>
+                    <li >
+                        <div id="timeline-image" class="timeline-image"><img class="rounded-circle img-fluid" src="./assets/img/about/googleAdwords.jpg" alt="" /></div>
+                        <div class=" timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Google Adwords</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div id="timelineFinal" class="timeline-image ">
+                            <h4>
+                                Somos
+                                <br />
+                                Parte de tu
+                                <br />
+                                Historia
+                            </h4>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
         <!--Sobre nosotros-->
-        <section class="page-section bg-warning mt-1" id="about">
+        <section class="page-section mt-1" id="about">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center ">
@@ -127,7 +151,7 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
                             <h4>Cecilia Trotta</h4>
                             <p class="text-muted">Ceo</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-2  btn-dark btn-social mx-2" href="#!"><i class=" fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class=" team2 col-lg-4">
@@ -135,7 +159,7 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
                             <h4>Alejandra Bello</h4>
                             <p class="text-muted">Diseñadora Grafica</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-2 btn-dark btn-social mx-2" href="#!"><i class="  fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class=" team3 col-lg-4">
@@ -143,7 +167,7 @@
                             <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
                             <h4>Camila</h4>
                             <p class="text-muted">Experta en Marketing Digital</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <a class= "btn-2 btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +227,7 @@
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                        <button class="btn btn-1 btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -214,9 +238,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Copyright © C-Digital 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a id="iconosSocialFo" class="btn  btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a id="iconosSocialFo" class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a id="iconosSocialFo" class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right">
                         <a class="mr-3" href="#!">Privacy Policy</a>
@@ -226,8 +250,7 @@
             </div>
         </footer>
         
-        <!--ScrollRevral-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

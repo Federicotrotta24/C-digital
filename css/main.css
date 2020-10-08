@@ -2,4 +2,54 @@ header img {
   height: 400px;
   width: 550px;
 }
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #f39200;
+}
+
+.btn-1 {
+  background-color: #f39200 !important;
+}
+
+#about {
+  background-color: #f39200;
+}
+
+.btn-2 {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-2 .btn-2:hover {
+  background-color: #d3530f !important;
+  border-color: #d3530f !important;
+}
+
+footer div a {
+  color: #d3530f;
+}
+
+footer div a:hover {
+  color: #f39200;
+}
+
+footer div i {
+  color: #d3530f;
+  background-color: #d3530f;
+}
+
+#iconosSocialFo {
+  background-color: #d3530f;
+  border-color: #d3530f;
+  color: #fff;
+}
+
+#iconosSocialFo:hover {
+  color: #f39200;
+}
+
+#timelineFinal {
+  background-color: #d3530f;
+}
 /*# sourceMappingURL=main.css.map */
